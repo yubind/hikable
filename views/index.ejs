@@ -1,5 +1,8 @@
+<% include partials/header.ejs %>
 
 <% trails.forEach(function(trail) { %>
     <img src="<%= trail.image %>" />
     <li><%= trail.name  %></li>
 <% }); %>
+
+<% include partials/footer.ejs %>
